@@ -10,6 +10,7 @@ export default function Home() {
         justifyContent: "center",
         backgroundImage: 'url("/img/s-sellowiana-trovo.jpg")',
         backgroundSize: "cover",
+        backgroundPositionX: "center",
         filter: "brightness(0.5)",
       }}
     >
@@ -19,6 +20,8 @@ export default function Home() {
           fontWeight: "900",
           fontSize: "2rem",
           filter: "brightness(1.5)",
+          maxWidth: "75vw",
+          textAlign: "center",
         }}
       >
         WEBFLORA IS UNDER CONSTRUCTION...
